@@ -8,12 +8,13 @@
     <link rel="stylesheet" href="C:/Users/lucca/OneDrive/Documentos/outros/fiap/fase7/healthStyle/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="C:/Users/lucca/OneDrive/Documentos/outros/fiap/fase7/healthStyle/bootstrap/css/bootstrap-icons-1.5.0/bootstrap-icons.css">
     <link rel="stylesheet" href="dashboard.css">
+    <link rel="stylesheet" href="menu.css">
     <title>Dashboard</title>
 </head>
 <body>
     <div class="main">
         <div class="nav">
-            <a data-bs-toggle="offcanvas" href="#" role="button" aria-controls="offcanvas">
+            <a data-bs-toggle="offcanvas" href="#offcanvas" role="button" aria-controls="offcanvas">
                 <i class="bi bi-grid-3x3-gap-fill"></i>
             </a>
             <div class="img">
@@ -119,6 +120,52 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+        <div class="offcanvas-header">
+            <header>
+                <img class="circle" src="https://icon-library.com/images/unknown-person-icon/unknown-person-icon-10.jpg">
+                Yuri Cadeville
+            </header>
+          <button type="button" class="btn-close btn-close-white text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="content">
+                <a href="#">
+                    <button>
+                        <div class="icon">
+                            <i class="bi bi-house-door"></i>
+                        </div>
+                        <span>Dashboard</span>
+                    </button>
+                </a>
+                <a href="#">
+                    <button>
+                        <div class="icon">
+                            <i class="bi bi-person-fill"></i>
+                        </div>
+                        <span>Editar cadastro</span>
+                    </button>
+                </a>
+                <a href="#">
+                    <button>
+                        <div class="icon">
+                            <i class="bi bi-pencil"></i>
+                        </div>
+                        <span>Editar pesos</span>
+                    </button>
+                </a>
+                <a href="#">
+                    <button>
+                        <div class="icon">
+                            <i class="bi bi-door-open-fill"></i>
+                        </div>
+                        <span>Deslogar da conta</span>
+                    </button>
+                </a>
             </div>
         </div>
     </div>
