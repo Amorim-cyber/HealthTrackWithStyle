@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
+    <link rel="stylesheet" href="C:/Users/lucca/OneDrive/Documentos/outros/fiap/fase7/healthStyle/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="C:/Users/lucca/OneDrive/Documentos/outros/fiap/fase7/healthStyle/bootstrap/css/bootstrap-icons-1.5.0/bootstrap-icons.css">
+    <link rel="stylesheet" href="dashboard.css">
+    <title>Dashboard</title>
+</head>
+<body>
+    <div class="main">
+        <div class="nav">
+            <a data-bs-toggle="offcanvas" href="#" role="button" aria-controls="offcanvas">
+                <i class="bi bi-grid-3x3-gap-fill"></i>
+            </a>
+            <div class="img">
+                <img src="https://icon-library.com/images/unknown-person-icon/unknown-person-icon-10.jpg">
+            </div>
+        </div>
+        <div class="dash">
+            <div class="cartao">
+                <label> Bem Vindo, Yuri</label>
+                <div class="info">
+                    <div class="diario">
+                        <label>Hoje</label>
+                        <div class="card cinza atividade">
+                            <div class="head">
+                                <div>
+                                    <img src="fogo.png">
+                                    <span>Atividade</span>
+                                </div>
+                                
+                                <i class="bi bi-pencil"></i>
+                            </div>
+                            <div class="details">
+                                <div id="gasto" class="item">
+                                    <span>Gasto</span>
+                                    <div>
+                                        340.1<small>kcal</small>
+                                    </div>
+                                </div>
+                                <div id="tempo" class="item">
+                                    <span>Tempo</span>
+                                    <div>
+                                        55<small>min</small>
+                                    </div>
+                                </div>
+                                <div id="repouso" class="item">
+                                    <span>Repouso</span>
+                                    <div>
+                                        3<small>hrs</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="footer">
+                                <div class="item">
+                                    <div class="circle" id="meta">
+                                        68%
+                                    </div>
+                                    <span>meta diária</span>
+                                </div>
+                            </div>    
+                        </div>
+                        <div class="cinza cardio">
+                            <div class="head">
+                                <div>
+                                    <img id="cardio" src="cardio.png">
+                                    <span>Cardio</span>
+                                </div>
+                                
+                                <i class="bi bi-pencil"></i>
+                            </div>
+                            <div class="details">
+                                <div id="pressao" class="item">
+                                    <span>Pressão Arterial</span>
+                                    <div>
+                                        128/85
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="footer">
+                                <div class="item">
+                                    <div class="circle" id="statuspressao">
+                                        <i class="bi bi-hand-thumbs-up"></i>
+                                    </div>
+                                    <span>Ótimo</span>
+                                </div>
+                            </div>    
+                        </div>
+                    </div>
+                    <div class="evolucao">
+                        <label>Evolução</label>
+                        <div class="card cinza evolucao">
+                            <span>-2,4Kg em 4 dias</span>
+                            <div class="graph">
+                                <div class="bars">
+                                    <div class="bar">
+                                        <span>70</span>
+                                        <div id="bar1"></div>
+                                    </div>
+                                    <div class="bar">
+                                        <span>68,5</span>
+                                        <div id="bar2"></div>
+                                    </div>
+                                    <div class="bar">
+                                        <span>66</span>
+                                        <div id="bar3"></div>
+                                    </div>
+                                </div>
+                                <div class="dates">
+                                    <span>06/01/2020</span>
+                                    <span>16/01/2020</span>
+                                    <span>03/02/2020</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="C:/Users/lucca/OneDrive/Documentos/outros/fiap/fase7/healthStyle/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
